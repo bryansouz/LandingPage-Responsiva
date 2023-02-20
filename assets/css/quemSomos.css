@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@340&display=swap');
+.quemSomos {
+  
+    color: black;
+    height: 100vh;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1%;
+  }
+
+  .quemSomos img {
+   
+    height: auto;
+  }
+  .quemSomos h1{
+    font-family: 'Labrada', cursive;
+    font-weight: 600;
+    text-align: right;
+    margin: 5%;
+    font-size: 3em;
+  }
+  .quemSomos h2{
+    font-family: 'Labrada', cursive;
+    font-weight: 600;
+    text-align: right;
+    font-size: 1.5em;
+  }
+  .quemSomos p {
+    font-family: 'Labrada', serif;
+    
+    font-size: 1.2em;
+    padding-bottom: 10px;
+  }
+
