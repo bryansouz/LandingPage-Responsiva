@@ -1,0 +1,23 @@
+.secao2{
+    color: rgb(255, 255, 255);
+   
+    width: 70vw;
+    height: 100vh;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    background-image: url('/assets/img/secao2.JPG');
+    background-position: center top;
+    margin: auto;
+    
+    }
+    .secao2 ul{
+        background-color: rgb(255, 255, 255,0.5);
+        width:50%;
+        height: 120%;
+    }
+    .secao2 li{
+       background-color: var(--dark);
+         text-align: center;
+         margin: 10%;
+    }

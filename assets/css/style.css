@@ -22,11 +22,16 @@ img{
 :root{
     --red:#C61D23;
     --white:#fff;
-    --dark:#1e1c2a;
+    --dark:#0c0b10;
 }
 body{
     color: var(--white);
-    background: var(--white);
+    background: var(--dark);
+}
+.dividir{
+    max-width: 100vw;
+    height: 70px;
+    background-color: var(--dark);
 }
 .navigation{
     display: flex;
@@ -84,7 +89,7 @@ body{
     background: var(--red);
 }
 
-.container {
+.containerHome {
     background-image: url("../img/teahub.io-bjj-wallpaper-935085.jpg") ;
     display: block;
     flex-wrap: wrap;
@@ -215,7 +220,7 @@ body{
         width: 100%;
         height: 100%;
         flex-direction: column;
-        background: var(--dark);
+        background: black   ;
         gap: -10px;
         transition: 0.3s;
       
